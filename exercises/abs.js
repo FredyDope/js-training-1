@@ -1,4 +1,4 @@
-'use strict'
+'use stric'
 
 /*
  * Create the function `abs` that takes one number argument
@@ -10,7 +10,14 @@
  */
 
 // Your code :
-
+/*const abs = (value) => {
+	if (value >= 0) 
+		return value
+ else (value < 0)
+ 	 	return - value 
+ }
+ */
+ const abs = (value) => value >= 0 ? value : - value
 //* Begin of tests
 const assert = require('assert')
 

@@ -7,6 +7,27 @@
  * Of course you may not use the method directly
  *
  */
+ /*const repeat = (value, n) => {
+ 	 if ( n <= 0 )
+ 	 	return ''
+ 	 else if ( n === 1)
+ 	 	return value
+ 	 else if ( n > 0)
+  		return value + repeat(value, n-1) 
+ 	 else return false
+ }
+*/
+
+const repeat = (value, n) => {
+	let valueX = ''
+	
+	for (let i = 0; i < n ; i++){
+		 valueX = valueX + value
+		}
+
+		 return valueX
+		}
+
 
 //* Begin of tests
 const assert = require('assert')

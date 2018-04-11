@@ -8,6 +8,11 @@
 
 // Your code :
 
+const concatStr = (arr1, arr2) => {
+
+		 return (arr1 + arr2)
+}
+
 //* Begin of tests
 const assert = require('assert')
 

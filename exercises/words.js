@@ -5,6 +5,11 @@
  * and return an array of each words using space as a delimiter
  *
  */
+ const words = (a) => {
+ 	
+ 	return a.split(' ')
+
+ }
 
 
 //* Begin of tests

@@ -7,8 +7,14 @@
  */
 
 // Your code:
-
-
+/*const isPositive = (value) => {
+	if (value > 0)
+		return true
+	else return false
+}
+*/
+const isPositive = (value) => value > 0 ? true : false
+ 
 //* Begin of tests
 const assert = require('assert')
 

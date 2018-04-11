@@ -6,7 +6,10 @@
  *
  */
 
+const capitalize = (value) =>{
+	return value.charAt(0).toUpperCase() + value.slice(1).toLowerCase()
 
+}
 //* Begin of tests
 const assert = require('assert')
 

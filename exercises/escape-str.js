@@ -8,7 +8,8 @@
  */
 
 // Your code :
-
+'use strict'
+const escapeStr = "'"+'"'+'`'+'/'+'\\'
 //* Begin of tests
 const assert = require('assert')
 

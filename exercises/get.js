@@ -15,6 +15,12 @@ const sourceObject = {
   log: console.log,
 }
 
+const get = arr => {
+
+	return sourceObject[arr]
+}
+
+console.log(get('num'))
 // Your code :
 
 //* Begin of tests

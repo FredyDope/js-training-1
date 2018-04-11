@@ -12,6 +12,15 @@
 
 // Your code :
 
+const sign = (value) => {
+	if (value > 0)
+		return 1
+	else if (value < 0)
+		return -1
+	else (value === 0)
+		return 0
+}
+
 //* Begin of tests
 const assert = require('assert')
 

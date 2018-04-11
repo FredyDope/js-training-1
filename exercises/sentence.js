@@ -5,6 +5,9 @@
  * and return a strings of all the element separated by spaces
  *
  */
+const sentence = (a) => {
+	return (a.join(' '))
+}
 
 
 //* Begin of tests
